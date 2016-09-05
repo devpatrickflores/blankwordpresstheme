@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains global styles.
+// -----------------------------------------------------------------------------
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+    @include on-event {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains all sass variables.
+// -----------------------------------------------------------------------------
+/// font family
+$text-font-lato: 'Lato', 'Arial', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', sans-serif !default;
+$text-font-open-sans: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$text-font-pe-icon: 'Pe-icon-7-stroke' !default;
+$text-font-stack: $text-font-open-sans!default;
+
+/// background color
+$translucent-black: rgba(0, 0, 0, 0.3);
+
+/// text color
+$text-color: rgb(34, 34, 34) !default;
+$brand-color: rgb(229, 0, 80) !default;
+$light-grey: rgb(237, 237, 237) !default;
+$mid-grey: rgb(153, 153, 153) !default;
+$dark-grey: rgb(68, 68, 68) !default;
+
+/// Container's maximum width
+$max-width: 1180px !default;
+/// Media Queries
+$breakpoints: ( 'small': (min-width: 320px), 'medium': (min-width: 768px), 'large': (min-width: 1024px), ) !default;
+/// Relative or absolute URL where all assets are served from
+$base-url: '/assets/' !default;
